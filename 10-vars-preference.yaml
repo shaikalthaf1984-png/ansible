@@ -9,8 +9,6 @@
   # - name: NAME
   #   prompt: What is your NAME?
   #   private: false
-
-
   tasks:
   - name: testing variable preference
     # vars:
