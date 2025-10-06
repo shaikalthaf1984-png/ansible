@@ -5,9 +5,9 @@
     COURSE: DevOps with AWS
     DURATION: 10HRS
     TRAINIER: Sivakumar Reddy
-    tasks:
-    - name: print the course info
-      # vars:
-      #   COURSE: Ansible
-      ansible.builtin.debug: 
-        msg: "Course name is: {{ COURSE }}, Duration {{ DURATION }}, Trainer {{ trainer }}"
+  tasks:
+  - name: print the course info
+    # vars:
+    #   COURSE: Ansible
+    ansible.builtin.debug: 
+      msg: "Course name is: {{ COURSE }}, Duration {{ DURATION }}, Trainer {{ trainer }}"
