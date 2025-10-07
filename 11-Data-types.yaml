@@ -9,13 +9,13 @@
     - "linux"
     - shell
     - ansible
-  tools: 
+  concepts
     Cloud: AWS
     Cm: Ansible
-  concepts: 
+  tasks: 
   - name: print couse info
     ansible.builtin.debug:
-      msg: "course name: {{ Course }}, Duration {{ Duration }}, is it alive {{ is alive }}, tools are: {{ tools }}, conectps are {{ concepts}}"
+      msg: "course name: {{ Course }}, Duration {{ Duration }}, is it alive {{ is_alive }}, tools are: {{ tools }}, conectps are {{ concepts }}"
 
 
   
