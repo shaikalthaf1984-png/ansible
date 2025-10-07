@@ -6,8 +6,8 @@
     ansible.builtin.debug:
       msg: "Hell {{ item }}"
     
-  loop:
-  - Ramesh
-  - Suresh
-  - Raheem
-  - John
+    loop:
+    - Ramesh
+    - Suresh
+    - Raheem
+    - John
