@@ -9,9 +9,9 @@
     - "linux"
     - shell
     - ansible
-  concepts:
-    Cloud: AWS
-    Cm: Ansible
+    concepts:
+      Cloud: AWS
+      Cm: Ansible
   tasks: 
   - name: print couse info
     ansible.builtin.debug:
