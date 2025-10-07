@@ -9,7 +9,7 @@
     - "linux"
     - shell
     - ansible
-  concepts
+  concepts:
     Cloud: AWS
     Cm: Ansible
   tasks: 
