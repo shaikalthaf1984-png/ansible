@@ -10,9 +10,9 @@
     # list
     listtags:
     - key: Application
-    - value: payment
+      value: payment
     - key: Environment
-    - value: dev
+      value: dev
 
   tasks:
   - name: defaults variable
